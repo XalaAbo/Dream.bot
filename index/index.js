@@ -2,7 +2,7 @@ const { Client, MessageAttachment, Collection, MessageEmbed } = require('discord
 const Discord = require('discord.js');
 const { PREFIX, TOKEN, DBL_API_KEY } = require('./config');
 const bot = new Client({ disableMentions: 'everyone' });
-const DBL = require('dblapi.js');
+const DBL = require('mongodb+srv://abo:<password>@cluster0.dzow4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 const dbl = new DBL(DBL_API_KEY)
 const fs = require("fs");
 const db = require('quick.db');
