@@ -1,4 +1,4 @@
-exports.PREFIX = 'v!';
+exports.PREFIX = 'd!';
 
 exports.GOOGLE_API_KEY = '';
 
